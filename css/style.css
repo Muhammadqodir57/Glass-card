@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background: linear-gradient(296deg, #121A2D 19.18%, #323A4E 107.74%);
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrap {
+    position: relative;
+
+}
+
+.card {
+    position: relative;
+    width: 660px;
+    height: 412px;
+    border-radius: 40px;
+    border: 3.5px solid grey;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(21px);
+    z-index: 2;
+    padding: 45px 50px;
+}
+
+.oval {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 160px;
+    border-radius: 50%;
+    height: 160px;
+    transform: rotate(125.749deg);
+    background: linear-gradient(180deg, #73CBED 0%, #0EA9F5 98.44%);
+}
+
+.oval-2 {
+    position: absolute;
+    bottom: -25%;
+    right: -15%;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    transform: rotate(125.749deg);
+    background: linear-gradient(180deg, #73CBED 0%, #0EA9F5 98.44%);
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 193px;
+}
+
+.card-title {
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.card-text {
+    color: rgba(255, 255, 255, 0.66);
+    margin-bottom: 5px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title-2 {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+}
